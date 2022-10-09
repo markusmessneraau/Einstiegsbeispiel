@@ -10,7 +10,6 @@ public class Einstiegsbeispiel {
 
         int [] arr = {1,1,1,2,2,2,3,3,3,3,4,4,5};
 
-        System.out.println(getRepetitions(arr).get(5));
 
     }
 
@@ -22,7 +21,7 @@ public class Einstiegsbeispiel {
 
 
 
-    public static HashMap getRepetitions(int[] arr){
+    public  HashMap getRepetitions(int[] arr){
 
         HashMap<Integer, Integer> numbers = new HashMap<Integer, Integer>();
 
